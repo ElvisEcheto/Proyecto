@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(0deg,#4B4D48, #977634);
+    color: white;
+    font-family: Metal mania;
+    background-attachment: fixed;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    margin-top: 2%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+nav ul li{
+    margin-right: 5vw;
+    margin-left: 1vw;
+    list-style: none;
+    color: white;
+}
+
+#Missio{
+    font-size: 5vw;
+}
+
+main{
+    background-color: blue;
+
+}
+
+.img{
+    width: 60vh;
+
+
+}
