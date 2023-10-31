@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(0deg,#4B4D48, #977634);
     color: white;
-    font-family: Metal mania;
+    font-family: 'Signika Negative', sans-serif;
     background-attachment: fixed;
     display: block;
     justify-content: center;
@@ -10,14 +10,17 @@ body{
 }
 
 nav{
+    background-color: rgb(8, 8, 8);
     margin-top: 2%;
+    border-radius: 1vw 1vw;
+
 }
 
 nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 nav ul li{
@@ -29,15 +32,118 @@ nav ul li{
 
 #Missio{
     font-size: 5vw;
-}
-
-main{
-    background-color: blue;
-
+    font-family: Metal mania;
 }
 
 .img{
-    width: 50vw;
+    width: 60%;
+}
 
 
+.columna{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10% auto;
+    border: none;
+}
+
+.columna input, select, textarea{
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.derecho{
+    border: none;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    padding: 10%;
+    font-size: 0.8vw;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 10vw 10vw;
+    color: white;
+}
+
+.allaito{
+    display: flex;
+}
+
+.jiji{
+    display: flex;
+    flex-direction: column;
+    margin: 3vw auto;
+    border: none;
+}
+
+.patras{
+    margin-bottom: 10px;
+}
+
+.alreve{
+    flex-direction: row-reverse;
+    border-radius: 0 3vw 3vw 0;
+    font-size: 1.2vw;
+    justify-content: space-between;
+    background-color: black;
+    margin: 1% 30% 5% -1%;
+}
+
+.lul{
+    justify-content: space-between;
+    border-radius: 3vw 0 0 3vw;
+    font-size: 1.2vw;
+    margin: 2% -1% 5% 30%;
+    background-color: black;
+}
+
+.padentro{
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.img{
+    width: 40%;
+}
+
+#duo{
+    width: 70vw;
+}
+
+.margenes{
+    margin-left: 2vw;
+    margin-left: 2vw;
+}
+
+#pro{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8vw;
+}
+
+.peq{
+    width: 20%;
+    background-color: black;
+    padding: 1vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px ;
+    padding: 5% 60% 5% 10%;
+}
+
+.divi{
+ 
+}
+
+.alaito_cent{
+    display: flex;
+    justify-content: center;
 }
