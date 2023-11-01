@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(0deg,#4B4D48, #977634);
+    background: linear-gradient(0deg,#030303, #977634);
     color: white;
     font-family: 'Signika Negative', sans-serif;
     background-attachment: fixed;
@@ -65,7 +65,7 @@ nav ul li{
 }
 
 .btn{
-    background-color: black;
+    background-color: #ae8023;
     border-radius: 10vw 10vw;
     color: white;
 }
@@ -184,4 +184,9 @@ nav ul li{
     align-items: center;
     margin-top: 2%;
     margin-bottom: 0%;
+}
+
+.negro{
+    background-color: black;
+    padding: 2%;
 }
